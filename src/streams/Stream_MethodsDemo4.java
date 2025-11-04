@@ -18,7 +18,7 @@ public class Stream_MethodsDemo4 {
 		List<String> cStream= Stream.concat(stream1, stream2).collect(Collectors.toList());
 		
 		for(String item: cStream) {
-			System.out.println(item);
+		///	System.out.println(item= );
 		}
 	}
 
